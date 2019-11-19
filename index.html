@@ -1,14 +1,21 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-  <body>
-    <div id="count">0</div>
-    <button onclick="app.gameController.mine()">DIG</button>
-    <script src="app/main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <div id="count">0</div>
+  <button onclick="app.gameController.mine()">DIG</button>
+  <button id="pickaxe" onclick="app.gameController.buyP()">Pickaxe</button>
+  <button id="miner" onclick="app.gameController.buyM()">Miner</button>
+  <button id="cart" onclick="app.gameController.buyC()">Cart</button>
+  <button id="rover" onclick="app.gameController.buyR()">Rover</button>
+  <script src="app/main.js" type="module"></script>
+</body>
+
 </html>
